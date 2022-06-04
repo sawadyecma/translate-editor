@@ -1,8 +1,6 @@
-import { useState } from "react";
-import { server } from "../config";
-import { usePages } from "../hooks/usePages";
-import { getPages } from "../rpc/page";
-import { Page } from "../type";
+import { usePages } from "../../hooks/usePages";
+import { getPages } from "../../rpc/page";
+import { Page } from "../../type";
 
 type Props = {
   pages: Page[];

@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { Page } from "../../type";
-import { storage } from "../pages";
+import { Page } from "../../../type";
+import { storage } from ".";
 
 export default function handler(
   req: NextApiRequest,
